@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# YOLO Weights and Data
+# Usually, model weights are too large for Git
+*.pt
+*.pth
+*.onnx
+runs/
+data/cache/
+# Keep essential label or config files if needed
+
+# Webots
+# Exclude simulation logs, temp files, and generated controllers
+*.wbt.bak
+*.wbt.tmp
+controllers/*/build/
+controllers/*/outputs/
+simulation/logs/
+*.wbproj
